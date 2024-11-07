@@ -6,7 +6,7 @@ local M = {
 }
 
 function M.config()
-  vim.cmd.colorscheme "defaultplus"
+  vim.cmd.colorscheme "retrobox"
 end
 
 return M
