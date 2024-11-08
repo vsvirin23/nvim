@@ -56,7 +56,6 @@ function M.common_capabilities()
     return capabilities
 end
 
-
 function M.config()
     local lspconfig = require "lspconfig"
     local icons = require "icons"
@@ -65,6 +64,7 @@ function M.config()
         "lua_ls",
         "cssls",
         "html",
+        "hls",
     }
 
     vim.diagnostic.config {
